@@ -3,6 +3,7 @@ class JavaException {
         try
         {
             throw new MyException(2);
+            System.out.println("Hello");
         }
 
         catch(MyException e)
